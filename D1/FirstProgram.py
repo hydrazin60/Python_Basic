@@ -1,5 +1,5 @@
 str1 = "jiban pandey"
- 
+# str2 =  "web developer"
 # # concatenation
 # print(str1 + str2) 
 # # length
@@ -25,41 +25,50 @@ str1 = "jiban pandey"
 
 
  
-# 1 str.endswhite("er.")  #return true if string ends with "er."
-print(str1.endswith("pandey"))  
-# ans   => true
-print(str1.endswith("shr")) 
-# ans   => false
+# # 1 str.endswhite("er.")  #return true if string ends with "er."
+# print(str1.endswith("pandey"))  
+# # ans   => true
+# print(str1.endswith("shr")) 
+# # ans   => false
 
 
-# 2 str.capitalize()   #capitalise the first  character
-print(str1.capitalize())
-# ans => Jiban pandey  ## this function not change own orginal string 
-# if we awant to change the orginal string then we can use  
-str1 = str1.capitalize()
-print(str1)
-# ans => Jiban pandey /# always use this function to change the orginal string
-
-
-
-# 3 str.replace("old", "new")  # replace old with new  
-print(str1.replace("pandey", "shrivastava"))
-# ans => jiban shrivastava       ## this function not change own orginal string 
-# if we awant to change the orginal string then we can use  
-str1 = str1.replace("pandey", "shrivastava")
-print(str1)
-#  its change permanently pandey to shrivastava
+# # 2 str.capitalize()   #capitalise the first  character
+# print(str1.capitalize())
+# # ans => Jiban pandey  ## this function not change own orginal string 
+# # if we awant to change the orginal string then we can use  
+# str1 = str1.capitalize()
+# print(str1)
+# # ans => Jiban pandey /# always use this function to change the orginal string
 
 
 
-# 4 str.find("i")   # return 1st index of 1st occurrer
-print(str1.find("a"))
-# ans => 1
-# if i am search for not present character then it will return -1
-print(str1.find("x"))
-# ans => -1
+# # 3 str.replace("old", "new")  # replace old with new  
+# print(str1.replace("pandey", "shrivastava"))
+# # ans => jiban shrivastava       ## this function not change own orginal string 
+# # if we awant to change the orginal string then we can use  
+# str1 = str1.replace("pandey", "shrivastava")
+# print(str1)
+# #  its change permanently pandey to shrivastava
 
 
-# 5 str.count("i)   # return number of occurrer
-print(str1.count("j"))
-# ans => 2
+
+# # 4 str.find("i")   # return 1st index of 1st occurrer
+# print(str1.find("a"))
+# # ans => 1
+# # if i am search for not present character then it will return -1
+# print(str1.find("x"))
+# # ans => -1
+
+
+# # 5 str.count("i)   # return number of occurrer
+# print(str1.count("j"))
+# # ans => 2
+
+
+# # Q) print length of your name ?
+# name = input("enter your name : ")
+# print("length of your name is : ", len(name))
+
+# # Q) print the number of $ in the string
+# str = "Hi , $I am the $ symbol $99 $"
+# print(str.count('$'))

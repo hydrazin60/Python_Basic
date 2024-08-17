@@ -20,11 +20,26 @@
 #     print("Senior citizen eligible for driving license")
 # else:
 #     print("Not eligible")
-
 #### Example:2
-lightColor = "red"
-if(lightColor == "red"): print("stop")
-elif(lightColor == "yellow"): print("slow")
-if(lightColor == "red"): print("stop Now")
-elif(lightColor == "green"): print("go")
-else: print("invalid color")
+
+# lightColor = "red"
+# if(lightColor == "red"): print("stop")
+# elif(lightColor == "yellow"): print("slow")
+# if(lightColor == "red"): print("stop Now")
+# elif(lightColor == "green"): print("go")
+# else: print("invalid color")
+
+#### Conditional operator
+  
+## Example:3
+marks =  int(input("Enter your marks: "))
+if marks >= 90:
+    grade = "A"
+elif marks >= 80:
+    grade = "B"
+elif marks >= 70:
+    grade = "C"
+else:
+    grade = "D"
+
+print(f"The grade is {grade}")

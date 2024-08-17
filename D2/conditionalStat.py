@@ -31,15 +31,26 @@
 
 #### Conditional operator
   
-## Example:3
-marks =  int(input("Enter your marks: "))
-if marks >= 90:
-    grade = "A"
-elif marks >= 80:
-    grade = "B"
-elif marks >= 70:
-    grade = "C"
-else:
-    grade = "D"
+#### Example:3
+# marks =  int(input("Enter your marks: "))
+# if marks >= 90:
+#     grade = "A"
+# elif marks >= 80:
+#     grade = "B"
+# elif marks >= 70:
+#     grade = "C"
+# else:
+#     grade = "D"
+# print(f"The grade is {grade}")
 
-print(f"The grade is {grade}")
+#### Nesting if statements
+
+#### Example:4
+age = int(input("Enter your age: "))
+if(age >= 18):
+    if(age >= 60):
+     print("senior citizen")
+    else:
+     print("can drive")
+else:
+    print("can't drive you are child!!")

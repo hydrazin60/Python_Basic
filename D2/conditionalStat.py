@@ -46,11 +46,44 @@
 #### Nesting if statements
 
 #### Example:4
-age = int(input("Enter your age: "))
-if(age >= 18):
-    if(age >= 60):
-     print("senior citizen")
-    else:
-     print("can drive")
-else:
-    print("can't drive you are child!!")
+# age = int(input("Enter your age: "))
+# if(age >= 18):
+#     if(age >= 60):
+#      print("senior citizen")
+#     else:
+#      print("can drive")
+# else:
+#     print("can't drive you are child!!")
+
+#### Q1) check whether a number is even or odd
+# number = int(input("Enter a number: "))
+# if(number % 2 == 0) : print("Even")
+# else : print("Odd")
+
+#### Q2)  WAP to find the greatest of 3 numbers  entering by user
+# A = int(input("Enter first number A: ")) 
+# B = int(input("Enter second number B: "))
+# C = int(input("Enter third number C: "))
+# if A > B and A > C:
+#     print("A is the greatest")
+# elif B > A and B > C:
+#     print("B is the greatest")
+# else:
+#     print("C is the greatest")
+
+#### Q3) WAP to check if a number is a multiple of 7 or not
+
+# A = int (input("Enter a number: "))
+# if(A % 7 == 0):
+#     print("multiple of 7")
+# else:
+#     print("not a multiple of 7")
+
+#### Q4) WAP to check if a number is a multiple of 7 and 3 or not
+# A = int (input("Enter a number: "))
+# if(A % 7 == 0 and A % 3==0):
+#     print("multiple of 7 and 3")
+# elif(A % 7 == 0) : print("multiple of 7 only")
+# elif(A % 3 == 0) : print("multiple of 3 only")
+# else:
+#     print("not a multiple of 7 and 3")

@@ -22,8 +22,9 @@
 #     print("Not eligible")
 
 #### Example:2
-lightColor = "yellow"
+lightColor = "red"
 if(lightColor == "red"): print("stop")
 elif(lightColor == "yellow"): print("slow")
+if(lightColor == "red"): print("stop Now")
 elif(lightColor == "green"): print("go")
 else: print("invalid color")

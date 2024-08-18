@@ -1,15 +1,15 @@
 #### Lists in Python
 ## string => inmutable in python(unchangeable)  [in string we can read and access the index(value) BUT we can not change the value]
 ## list => mutable in python (changeable) [in list we can read and access the index(value) AND we can change the value]
-marks1 = 95.3
-marks2 = 85.6
-marks3 = 75.9
-marks4 = 65.4
-marks5 = 55.9
-marks6 = 45.2
+# marks1 = 95.3
+# marks2 = 85.6
+# marks3 = 75.9
+# marks4 = 65.4
+# marks5 = 55.9
+# marks6 = 45.2
 
-marks = [95.3, 85.6, 75.9, 65.4, 55.9, 45.2]
-studentNams = ["jiban", "pandey", "khem", "karuna", "nisan", "samir"]
+# marks = [95.3, 85.6, 75.9, 65.4, 55.9, 45.2]
+# studentNams = ["jiban", "pandey", "khem", "karuna", "nisan", "samir"]
 # print(studentNams[0], ":",  marks[2])
 # # we can change the value i List
 # marks[0] = 100
@@ -40,3 +40,21 @@ studentNams = ["jiban", "pandey", "khem", "karuna", "nisan", "samir"]
 # ## list.pop(3)  ##  remove the 3 index from the list
 # marks.pop(2)     ## this function change in orginal list
 # print(marks)
+
+######## Tuples in Python ############# 
+### 1: In a tuple, we can read and access the values by index, 
+### 2: BUT we cannot change the values. 
+### 3: Tuples are immutable.
+
+marks = (95.3, 85.6, 75.9, 65.4, 55.9, 45.2)
+# print(type(marks))
+# print(marks[0])
+# ## marks[2] = 92.3  ## we can not change the value
+
+##########Toples Methods###########
+ ## tup.index(4)  # return the index of 4
+# marks.index(65.4) ## position of 65.4
+# print(marks.index(65.4))
+ ## tup.count(4)  # return the number of 4 in the tuple
+# marks.count(65.4)  ## return how many time 65.4 in the tuple
+# print(marks.count(65.4))

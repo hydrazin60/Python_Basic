@@ -58,3 +58,24 @@ marks = (95.3, 85.6, 75.9, 65.4, 55.9, 45.2)
  ## tup.count(4)  # return the number of 4 in the tuple
 # marks.count(65.4)  ## return how many time 65.4 in the tuple
 # print(marks.count(65.4))
+
+
+# ## Q1 WAP to ask the user to enter name of friend & store them in a list
+# A = input("enter the first number of friends: ")
+# B = input("enter the second number of friends: ")
+# C = input(" enter the third number of friends: ")
+# myFriend = []
+# myFriend.append(A)
+# myFriend.append(B)
+# myFriend.append(C)
+# print(myFriend)
+
+### Q2) WAP to check if a list contains a palindrome of elements.
+list1 = [1,2,2,1]
+copy_list = list1.copy()
+copy_list.reverse()
+
+if(list1 == copy_list): 
+    print("palindrome")
+else:
+    print("not a palindrome")

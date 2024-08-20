@@ -71,11 +71,11 @@ marks = (95.3, 85.6, 75.9, 65.4, 55.9, 45.2)
 # print(myFriend)
 
 ### Q2) WAP to check if a list contains a palindrome of elements.
-list1 = [1,2,2,1]
-copy_list = list1.copy()
-copy_list.reverse()
+# list1 = [1,2,2,1]
+# copy_list = list1.copy()
+# copy_list.reverse()
 
-if(list1 == copy_list): 
-    print("palindrome")
-else:
-    print("not a palindrome")
+# if(list1 == copy_list): 
+#     print("palindrome")
+# else:
+#     print("not a palindrome")

@@ -9,8 +9,8 @@ students = {
     "pandey": 85.6, 
     "khem": 75.9, 
     "karuna": 65.4, 
-    "nisan": 55.9, 
-    "samir": 45.2
+    "nisan": True, 
+    "samir":  "giri"
 }
 
 print(students)

@@ -8,7 +8,8 @@
 # marks5 = 55.9
 # marks6 = 45.2
 
-# marks = [95.3, 85.6, 75.9, 65.4, 55.9, 45.2]
+#marks = [95.3, 85.6, 75.9, 65.4, 55.9, 45.2]
+#print(type(marks))
 # studentNams = ["jiban", "pandey", "khem", "karuna", "nisan", "samir"]
 # print(studentNams[0], ":",  marks[2])
 # # we can change the value i List
@@ -19,19 +20,20 @@
 # print(marks[0:3]) ## from 0 to 2
 # print(marks[:4]) ## from 0 to 5  @@start:stop
  
-# ##### List Methods
-# #list.append(4)  # add 4 at the end  [we can  pass one element at a time and this function add this element at the end of the list]
+# ##### List Methods ###
+
+## list.append(4)  # add 4 at the end  [we can  pass one element at a time and this function add this element at the end of the list]
 # marks.append(80)
 # print(marks) ## print =>  [95.3, 85.6, 75.9, 65.4, 55.9, 45.2, 80]
 
-#  # list.sort()  # sort the list [ two type of sort function 1. is asscending order 2. is descending order ]
+## list.sort()  # sort the list [ two type of sort function 1. is asscending order 2. is descending order ]
 # marks.sort() ## this function change in orginal list
 # print(marks) ## print => [45.2, 55.9, 65.4, 75.9, 85.6, 95.3] [ it will sort the list in increse order]
 #  #list.sort(reverse = True)  # sort the list in reverse order
 # marks.sort(reverse=True) ## this function change in orginal list
 # print(marks) ## print => [95.3, 85.6, 75.9, 65.4, 55.9, 45.2]
 
-# # list.remove() 
+## list.remove() 
 # marks.reverse() ## this function change in orginal list
 # print(marks)
 # ## list.remove(4)  # remove the 4 from the list
@@ -51,7 +53,8 @@ marks = (95.3, 85.6, 75.9, 65.4, 55.9, 45.2)
 # print(marks[0])
 # ## marks[2] = 92.3  ## we can not change the value
 
-##########Toples Methods###########
+
+##########  Toples Methods  ###########
  ## tup.index(4)  # return the index of 4
 # marks.index(65.4) ## position of 65.4
 # print(marks.index(65.4))
@@ -60,7 +63,7 @@ marks = (95.3, 85.6, 75.9, 65.4, 55.9, 45.2)
 # print(marks.count(65.4))
 
 
-# ## Q1 WAP to ask the user to enter name of friend & store them in a list
+### Q1 WAP to ask the user to enter name of friend & store them in a list
 # A = input("enter the first number of friends: ")
 # B = input("enter the second number of friends: ")
 # C = input(" enter the third number of friends: ")
@@ -74,7 +77,6 @@ marks = (95.3, 85.6, 75.9, 65.4, 55.9, 45.2)
 # list1 = [1,2,2,1]
 # copy_list = list1.copy()
 # copy_list.reverse()
-
 # if(list1 == copy_list): 
 #     print("palindrome")
 # else:

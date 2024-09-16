@@ -56,10 +56,10 @@ set2 = {"jiban" , "pandey" , 200 , "karuna"}
 # ## set.remove( el )
 # set1.remove( "bipana") # remove the element
 # # print(set1)
-# ## set.clear( )
+# ## set.clear()
 # # set1.clear() # clear the set
 # # print(set1)
-# ## set.pop( )
+# ## set.pop()
 # set1.pop() # remove the last element
 # # print(set1)
 # ## set.union( sset2) # return the union of two sets

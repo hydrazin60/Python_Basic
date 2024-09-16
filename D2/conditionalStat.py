@@ -10,6 +10,7 @@
 ## if(condition) : statement1
 ## else : statement2
 
+
 #### Example:1
 # age = int(input("Enter your age: "))  
 # if 18 <= age < 60:
@@ -29,8 +30,10 @@
 # elif(lightColor == "green"): print("go")
 # else: print("invalid color")
 
+
 #### Conditional operator
   
+
 #### Example:3
 # marks =  int(input("Enter your marks: "))
 # if marks >= 90:
@@ -43,7 +46,8 @@
 #     grade = "D"
 # print(f"The grade is {grade}")
 
-#### Nesting if statements
+
+#### Nesting if statements ###############
 
 #### Example:4
 # age = int(input("Enter your age: "))
@@ -81,7 +85,7 @@
 
 #### Q4) WAP to check if a number is a multiple of 7 and 3 or not
 # A = int (input("Enter a number: "))
-# if(A % 7 == 0 and A % 3==0):
+# if(A % 7 == 0  and A % 3==0):
 #     print("multiple of 7 and 3")
 # elif(A % 7 == 0) : print("multiple of 7 only")
 # elif(A % 3 == 0) : print("multiple of 3 only")

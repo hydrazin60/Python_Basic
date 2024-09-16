@@ -1,18 +1,20 @@
 str1 = "jiban pandey"
-# str2 =  "web developer"
-print("hello world \n jiban pandey")
+str2 =  "web developer"
+# print("hello world \n jiban pandey")
 # # concatenation
 # print(str1 + str2) 
+
 # # length
 # print(len(str1 + str2 + " "))
-# # indexing of string in python
+
+# ##### indexing of string in python  ###########
 # print(str1[0])
 # print(str2[9])
 # # we acces the index of character in string but we can not change it
 
-#             #slici
+## slici #########
 # # //  Accessing parts of a string
-# # sentex => str[stating_index : ending_index]
+## sentex => str[stating_index : ending_index]
 # print(str2[0 : 14])
 # print(str2[4 : ])
 # print(str2[: 4])
@@ -22,11 +24,9 @@ print("hello world \n jiban pandey")
 # print(str2[1 :-9])
 # print(len(str2[ 1 :-9]))
 
-# # string Function 
+## string Function #########
 
-
- 
-# # 1 str.endswhite("er.")  #return true if string ends with "er."
+# 1 str.endswhite("er.")  #return true if string ends with "er."
 # print(str1.endswith("pandey"))  
 # # ans   => true
 # print(str1.endswith("shr")) 
@@ -40,7 +40,6 @@ print("hello world \n jiban pandey")
 # str1 = str1.capitalize()
 # print(str1)
 # # ans => Jiban pandey /# always use this function to change the orginal string
-
 
 
 # # 3 str.replace("old", "new")  # replace old with new  

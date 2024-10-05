@@ -72,5 +72,3 @@ str2 =  "web developer"
 # # Q) print the number of $ in the string
 # str = "Hi , $I am the $ symbol $99 $"
 # print(str.count('$'))
-
-

@@ -21,7 +21,7 @@
 ######### SLICING WITH SKIP VALUE ########
 
 ## we can provide a skip value as a part of our slice like this :
-name = "Jibanpandey"
-print(name[0:8 : 3]) # ANS => Jaa
+# name = "Jibanpandey"
+# print(name[0:8 : 3]) # ANS => Jaa
 
  
